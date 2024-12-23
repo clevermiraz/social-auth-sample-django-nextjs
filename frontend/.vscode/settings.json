@@ -1,0 +1,40 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "eslint.run": "onSave",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.excludedItems": {
+        "*/.js": {
+            "when": "**"
+        },
+        "*/.jsx": {
+            "when": "**"
+        }
+    },
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+
+    // extra
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "on",
+
+    // terminal
+    "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+    "terminal.integrated.fontSize": 15
+}
